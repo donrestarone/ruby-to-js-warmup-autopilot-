@@ -42,3 +42,31 @@ for (i = 0; i < 100; i++) {
 	total += i
 	console.log(total);
 }
+
+
+for (i = 3; i < 15; i++) {
+	if (i > 9) {
+		console.log('you can ride the rollercoaster!');
+	} else {
+		console.log('you are too short to ride the rollercoaster!');
+	}
+}
+
+
+var containers = ['purse', 'wallet', 'backpack'];
+for (i= 0; i < containers.length; i++) {
+	console.log(containers[i])
+}
+
+function helloWorld(){
+	console.log('hello world');
+}
+
+helloWorld()
+
+function add(first_num, second_num){
+	total = first_num + second_num;
+	return total;
+}
+
+console.log(add(5, 7))
